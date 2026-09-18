@@ -1,16 +1,10 @@
 Lab 01: GitHub Identity, Student Portal Registration, and Ubuntu Server Installation
 
-svg
-
 Lab Objective
-
-svg
 
 In this lab, you will create and correctly configure your GitHub account, register yourself in the Student Marks Portal, install Ubuntu Server in VMware Workstation Pro, verify your required Linux identity, and connect to the server remotely from Windows.
 
 Important Identity Requirement
-
-svg
 
 Your identity must remain consistent throughout this lab:
 
@@ -31,18 +25,12 @@ Your Ubuntu terminal prompt must follow this pattern:
 <github-username>@ubuntu:~$
 
 
-svg
-
 For example, if the GitHub username is waqassaleem97, the terminal prompt should be:
 
 waqassaleem97@ubuntu:~$
 
 
-svg
-
 Required Folder Structure
-
-svg
 
 The README.md file and the instructional images are provided by the instructor. You must create the screenshots directory and prepare your own Lab1_Solution.pdf.
 
@@ -57,8 +45,6 @@ CC/
             └── (screenshots of your completed tasks)
 
 
-svg
-
 Follow these rules:
 
 Save every screenshot of your work inside Labs/Lab01/screenshots/.
@@ -72,8 +58,6 @@ Add your screenshots to Lab1_Solution.pdf in the same order as the tasks.
 The Grade Approved Students GitHub Actions workflow checks the screenshots directory, not the images embedded only in the PDF.
 
 Task List
-
-svg
 
 Getting Started
 
@@ -117,22 +101,16 @@ Final Submission Checklist
 
 Getting Started
 
-svg
-
 Create the following directory inside your CC repository:
 
 Labs/Lab01/screenshots/
 
-
-svg
 
 Save a screenshot showing the created directory structure as lab01_folder_structure.png.
 
 Read the complete task list before beginning the installation.
 
 Task 1: Create and Configure Your GitHub Account
-
-svg
 
 Open GitHub Sign Up and create your personal GitHub account.
 
@@ -158,8 +136,6 @@ Do not include your password, access token, recovery codes, or other private cre
 
 Task 2: Register in the Student Marks Portal
 
-svg
-
 Open the Student Marks Portal.
 
 Save a screenshot of the portal login page as portal_login_page.png.
@@ -170,8 +146,6 @@ Enter your actual registration number using the format provided by your instruct
 
 2024-BSE-00
 
-
-svg
 
 Select the correct course code.
 
@@ -186,8 +160,6 @@ Save a screenshot of the submitted or pending enrollment as portal_enrollment_su
 A registration number belongs to only one student. Never enter another student's registration number.
 
 Task 3: Download VMware Workstation Pro and Ubuntu Server
-
-svg
 
 Download and install VMware Workstation Pro on your Windows computer.
 
@@ -204,8 +176,6 @@ Confirm that at least 20 GB of free storage is available for the Ubuntu Server v
 Save a screenshot showing the available storage as available_storage.png.
 
 Task 4: Create the Ubuntu Server Virtual Machine
-
-svg
 
 Open VMware Workstation Pro and select Create a New Virtual Machine.
 
@@ -229,15 +199,11 @@ Save a screenshot of the Ubuntu Server boot screen as ubuntu_installer_boot.png.
 
 Instructional reference
 
-svg
-
 The following image is provided to help you recognize the Ubuntu Server boot screen:
 
-Ubuntu Server boot screen (image)
+Ubuntu Server boot screen
 
 Task 5: Choose the Installation Language
-
-svg
 
 Use the arrow keys to select the required installation language.
 
@@ -247,13 +213,9 @@ Press Enter to continue.
 
 Instructional reference
 
-svg
-
-Ubuntu Server language selection (image)
+Ubuntu Server language selection
 
 Task 6: Configure the Keyboard Layout
-
-svg
 
 Select the keyboard layout that matches your keyboard.
 
@@ -267,15 +229,11 @@ Select Done to continue.
 
 Instructional references
 
-svg
+Ubuntu keyboard layout
 
-Ubuntu keyboard layout (image)
-
-Ubuntu keyboard variant (image)
+Ubuntu keyboard variant
 
 Task 7: Choose the Ubuntu Server Installation Type
-
-svg
 
 Select the normal Ubuntu Server installation option.
 
@@ -287,13 +245,9 @@ Continue to the next installer screen.
 
 Instructional reference
 
-svg
-
-Ubuntu Server installation type (image)
+Ubuntu Server installation type
 
 Task 8: Configure the Network
-
-svg
 
 Review the network interface detected by the Ubuntu Server installer.
 
@@ -307,13 +261,9 @@ Continue when the network configuration is correct.
 
 Instructional reference
 
-svg
-
-Ubuntu Server network configuration (image)
+Ubuntu Server network configuration
 
 Task 9: Configure Storage
-
-svg
 
 Select the guided storage option to use the VMware virtual disk.
 
@@ -327,13 +277,9 @@ Use only the VMware virtual disk created for this lab. Selecting or formatting t
 
 Instructional reference
 
-svg
-
-Ubuntu Server storage configuration (image)
+Ubuntu Server storage configuration
 
 Task 10: Select the Installation Disk
-
-svg
 
 Select the virtual disk created for the Ubuntu Server virtual machine.
 
@@ -345,13 +291,9 @@ Save a screenshot showing the disk name and size as ubuntu_disk_details.png.
 
 Instructional reference
 
-svg
-
-Ubuntu Server disk selection (image)
+Ubuntu Server disk selection
 
 Task 11: Review the Partitions
-
-svg
 
 Review the partition layout proposed by the Ubuntu Server installer.
 
@@ -363,13 +305,9 @@ Select Done only after reviewing the complete layout.
 
 Instructional reference
 
-svg
-
-Ubuntu Server partition layout (image)
+Ubuntu Server partition layout
 
 Task 12: Confirm the Storage Changes
-
-svg
 
 Read the destructive-action warning carefully.
 
@@ -381,19 +319,15 @@ Save a screenshot showing the confirmation selection as ubuntu_storage_confirmed
 
 Instructional reference
 
-svg
-
-Ubuntu Server final storage confirmation (image)
+Ubuntu Server final storage confirmation
 
 Task 13: Configure the Ubuntu Profile
 
-svg
-
 Complete the Ubuntu profile using the following required values:
 
-Installer fieldRequired value
+Installer field
 
-
+Required value
 
 Your name
 
@@ -433,8 +367,6 @@ Save a screenshot of the completed profile page as ubuntu_profile_setup.png.
 
 Task 14: Complete the Software Installation
 
-svg
-
 Wait while Ubuntu Server installs the required software.
 
 Save a screenshot showing the installation progress as ubuntu_installation_progress.png.
@@ -445,13 +377,9 @@ Wait until the installer reports that the installation is complete.
 
 Instructional reference
 
-svg
-
-Ubuntu Server software installation (image)
+Ubuntu Server software installation
 
 Task 15: Reboot and Verify the Ubuntu Identity
-
-svg
 
 When the installation completes, select Reboot Now.
 
@@ -472,25 +400,17 @@ Verify that the terminal prompt follows this format:
 <github-username>@ubuntu:~$
 
 
-svg
-
 Save a clear screenshot showing the complete prompt as ubuntu_identity_verified.png.
 
 Instructional reference
 
-svg
-
-Ubuntu Server installation complete (image)
+Ubuntu Server installation complete
 
 Task 16: Find the Ubuntu Server IP Address
-
-svg
 
 Run the following command inside Ubuntu Server:
 
 ip addr
-
-svg
 
 Save a screenshot showing the command and its output as ubuntu_ip_addr_command.png.
 
@@ -504,8 +424,6 @@ Keep your <github-username>@ubuntu prompt visible in the screenshot.
 
 Task 17: Connect to Ubuntu Server from Windows
 
-svg
-
 Keep the Ubuntu Server virtual machine powered on.
 
 Open Command Prompt or PowerShell on Windows.
@@ -513,8 +431,6 @@ Open Command Prompt or PowerShell on Windows.
 Run the following SSH command, replacing the placeholders with your Ubuntu username and server IP address:
 
 ssh <github-username>@<ubuntu-server-ip>
-
-svg
 
 Save a screenshot showing the SSH command as windows_ssh_command.png.
 
@@ -540,11 +456,7 @@ sudo apt update
 sudo apt install -y openssh-server
 sudo systemctl enable --now ssh
 
-svg
-
 Task 18: Prepare Lab1 Solution PDF
-
-svg
 
 Create a new document and add a title page containing:
 
@@ -575,8 +487,6 @@ Export the completed document using this exact filename:
 Lab1_Solution.pdf
 
 
-svg
-
 Save a screenshot showing the exported PDF as lab1_solution_pdf.png.
 
 Place the PDF at:
@@ -584,13 +494,9 @@ Place the PDF at:
 Labs/Lab01/Lab1_Solution.pdf
 
 
-svg
-
 Keep all original screenshots inside Labs/Lab01/screenshots/ for automatic grading.
 
 Screenshot Rules
-
-svg
 
 Every screenshot must be created from your own work.
 
@@ -615,8 +521,6 @@ The instructional images inside images/install-ubuntu-server/ are examples and m
 Missing, unclear, incorrectly named, misplaced, edited, or copied evidence may receive zero marks for the affected task.
 
 Final Submission Checklist
-
-svg
 
 README.md remains inside Labs/Lab01/.
 

@@ -1,4 +1,5 @@
-Assignment 01: Git, Gitea, GitHub, Git LFS, and GitHub Pages
+Assignment 01
+Git, Gitea, GitHub, Git LFS, and GitHub Pages
 Student Name: Maira Rizwan
 GitHub Username: mairarizwan74
 Course: Cloud Computing
